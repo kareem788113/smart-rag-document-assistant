@@ -59,6 +59,24 @@ The project is implemented end-to-end and ready for demonstration.
 * Persistent vector store
 * Local end-to-end testing
 
+
+## Track
+
+This project follows the **Core Track** of the RAG Document Assistant project.
+
+The project focuses on document-based text RAG, including:
+- PDF text extraction
+- Text chunking
+- Embeddings
+- Persistent vector storage
+- Semantic retrieval
+- Grounded answer generation
+- Source citations
+- FastAPI backend
+- Streamlit frontend
+
+The Extended Track features such as image upload, computer vision, and YOLO-based detection/classification are not included.
+
 ---
 
 ## Architecture
@@ -295,7 +313,7 @@ The `.env` file should not be committed to Git.
 ### 1. Clone the Repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <[(https://github.com/kareem788113/smart-rag-document-assistant.git)]>
 cd smart-rag-document-assistant-main
 ```
 
